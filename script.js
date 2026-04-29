@@ -1,3 +1,4 @@
+alert("JS conectado");
 document.getElementById("btnValidar").addEventListener("click", function() {
 
     let nombre = document.getElementById("nombre").value.trim();
