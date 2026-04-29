@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Validar Edad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>💗 Edad</h1>
+
+        <div class="input-group">
+            <label>Nombre</label>
+            <input type="text" id="nombre">
+            <span class="error" id="errorNombre"></span>
+        </div>
+
+        <div class="input-group">
+            <label>Edad</label>
+            <input type="number" id="edad">
+            <span class="error" id="errorEdad"></span>
+        </div>
+
+        <button onclick="validarEdad()">Validar</button>
+
+        <div id="resultado"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
